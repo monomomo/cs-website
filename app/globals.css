@@ -6,20 +6,20 @@
   --primary-light: #FFD54F;
   --primary-dark: #FFA000;
 
-  /* 背景色 - 深色系 */
-  --background: #0D0D0D;
-  --surface: #1A1A1A;
-  --surface-light: #252525;
+  /* 背景色 - 浅色系 */
+  --background: #F8F9FA;
+  --surface: #FFFFFF;
+  --surface-light: #E9ECEF;
 
   /* 强调色 - 科技蓝 */
   --accent: #00D4FF;
 
   /* 文字色 */
-  --foreground: #FFFFFF;
-  --text-secondary: #A0A0A0;
+  --foreground: #1A1A1A;
+  --text-secondary: #6C757D;
 
   /* 边框色 */
-  --border: #333333;
+  --border: #DEE2E6;
 }
 
 @theme inline {
@@ -46,9 +46,9 @@ body {
 
 /* 玻璃态效果 */
 .glass {
-  background: color-mix(in srgb, var(--surface) 80%, transparent);
+  background: color-mix(in srgb, var(--surface) 85%, transparent);
   backdrop-filter: blur(12px);
-  border: 1px solid color-mix(in srgb, var(--foreground) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--border) 60%, transparent);
 }
 
 /* 黄色光晕按钮 */
